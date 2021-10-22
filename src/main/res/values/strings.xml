@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">E-Ticket</string>
+    <string name="app_in_name">E-Ticket</string>
+    <string name="title_activity_naw">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_ticket">Ticket</string>
+    <string name="menu_train">Train</string>
+    <string name="menu_plane">Plane</string>
+
+</resources>

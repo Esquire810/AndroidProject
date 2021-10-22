@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_ticket">
+
+    <fragment
+        android:id="@+id/nav_ticket"
+        android:name="com.jixl.e_ticket.ui.ticket.TicketFragment"
+        android:label="@string/menu_ticket"
+        tools:layout="@layout/fragment_ticket" />
+
+    <fragment
+        android:id="@+id/nav_train"
+        android:name="com.jixl.e_ticket.ui.train.TrainFragment"
+        android:label="@string/menu_train"
+        tools:layout="@layout/fragment_train" />
+
+    <fragment
+        android:id="@+id/nav_plain"
+        android:name="com.jixl.e_ticket.ui.plain.PlainFragment"
+        android:label="@string/menu_plane"
+        tools:layout="@layout/fragment_plane" />
+</navigation>
